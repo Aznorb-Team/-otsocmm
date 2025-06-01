@@ -2190,6 +2190,46 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@maskito/angular@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "@maskito/angular@npm:3.6.0"
+  dependencies:
+    tslib: "npm:2.8.1"
+  peerDependencies:
+    "@angular/core": ">=16.0.0"
+    "@angular/forms": ">=16.0.0"
+    "@maskito/core": ^3.6.0
+  checksum: 10c0/2ed785a4985df0f42163e3dba1c6093d09eb971092b6a80be08368b615fb982e78325b161d07b4aa48417f9b1a189d4402041721dcce833bb37c35cdddd0e0c4
+  languageName: node
+  linkType: hard
+
+"@maskito/core@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "@maskito/core@npm:3.6.0"
+  checksum: 10c0/274765cdb805776ec6f658fa6817ce422aad415da2279b3c42cfe60fb4fc583bf6b938514995e00c39994dda13d2e1204f3f719cdd28d8b0ad88223ba24a1ddc
+  languageName: node
+  linkType: hard
+
+"@maskito/kit@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "@maskito/kit@npm:3.6.0"
+  peerDependencies:
+    "@maskito/core": ^3.6.0
+  checksum: 10c0/29f8550b40e44334d3b5767c7e5c052b616cbe5f213db8a9bce9ebbd2a445c5be98b0ae34d9efb81c4538db963baac1d9f22d4b483e1564d657b95277ba17bef
+  languageName: node
+  linkType: hard
+
+"@maskito/phone@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "@maskito/phone@npm:3.6.0"
+  peerDependencies:
+    "@maskito/core": ^3.6.0
+    "@maskito/kit": ^3.6.0
+    libphonenumber-js: ">=1.0.0"
+  checksum: 10c0/da1317347ce73ad23790d168557b9eb2ae2265f07fabbf856f4fcd1dafa08726eccdcf0deb261230b96757b7b957266014c338ab2052688e3875705a6e226d30
+  languageName: node
+  linkType: hard
+
 "@msgpackr-extract/msgpackr-extract-darwin-arm64@npm:3.0.3":
   version: 3.0.3
   resolution: "@msgpackr-extract/msgpackr-extract-darwin-arm64@npm:3.0.3"
@@ -2411,6 +2451,30 @@ __metadata:
     "@angular/core": ">=16.0.0"
     rxjs: ">=7.0.0"
   checksum: 10c0/ea02dd1ec3fe37a37c0e87ddc888efbc306e384c13a64b055d147770552d9e4efc9132741adc3c1b3c86592d414a69250f41ffd6c58797d18f3f77b44eab094d
+  languageName: node
+  linkType: hard
+
+"@ng-web-apis/intersection-observer@npm:^4.12.0":
+  version: 4.12.0
+  resolution: "@ng-web-apis/intersection-observer@npm:4.12.0"
+  dependencies:
+    tslib: "npm:^2.3.0"
+  peerDependencies:
+    "@angular/core": ">=16.0.0"
+    "@ng-web-apis/common": ">=4.12.0"
+  checksum: 10c0/c7e16bf839e8a32c3419d94956b5cf178f2e22adb81c81e3d309d58e54b4fbdedbdd5f8490a71a5a4975bc238e8c565c953d91e751555549b62b08d870e762e2
+  languageName: node
+  linkType: hard
+
+"@ng-web-apis/mutation-observer@npm:^4.12.0":
+  version: 4.12.0
+  resolution: "@ng-web-apis/mutation-observer@npm:4.12.0"
+  dependencies:
+    tslib: "npm:^2.3.0"
+  peerDependencies:
+    "@angular/core": ">=16.0.0"
+    "@ng-web-apis/common": ">=4.12.0"
+  checksum: 10c0/58a5ce97933142dc1eb4c3bfc97039ac6343534e133f5de7a3af732e8e3896cefe9e3e0a7a717397bb7208368ff49b8b4957c6bfd7fe6ea585b043682c5942f3
   languageName: node
   linkType: hard
 
@@ -4533,7 +4597,13 @@ __metadata:
     "@angular/platform-server": "npm:^19.2.0"
     "@angular/router": "npm:^19.2.0"
     "@angular/ssr": "npm:^19.2.7"
+    "@maskito/angular": "npm:^3.6.0"
+    "@maskito/core": "npm:^3.6.0"
+    "@maskito/kit": "npm:^3.6.0"
+    "@maskito/phone": "npm:^3.6.0"
     "@ng-web-apis/common": "npm:^4.12.0"
+    "@ng-web-apis/intersection-observer": "npm:^4.12.0"
+    "@ng-web-apis/mutation-observer": "npm:^4.12.0"
     "@ng-web-apis/platform": "npm:^4.12.0"
     "@ng-web-apis/resize-observer": "npm:^4.12.0"
     "@ng-web-apis/screen-orientation": "npm:^4.12.0"
@@ -4560,6 +4630,7 @@ __metadata:
     karma-coverage: "npm:~2.2.0"
     karma-jasmine: "npm:~5.1.0"
     karma-jasmine-html-reporter: "npm:~2.1.0"
+    libphonenumber-js: "npm:^1.12.6"
     rxjs: "npm:~7.8.0"
     tslib: "npm:^2.3.0"
     typescript: "npm:~5.7.2"
@@ -6545,6 +6616,13 @@ __metadata:
   bin:
     lessc: bin/lessc
   checksum: 10c0/d472c203a41fb3722a9bf5677f5348e59d8b6589bf2e3933a77c305b42b2ebbe1e3accf145f05b6d2415ba1dad08add7803646947bf867eec7a2a279d758d99a
+  languageName: node
+  linkType: hard
+
+"libphonenumber-js@npm:^1.12.6":
+  version: 1.12.6
+  resolution: "libphonenumber-js@npm:1.12.6"
+  checksum: 10c0/7218d8ce96a19c76c677a89da41c6b55c89c07f64999b464b5fde605d2abfcbefe2afc5bbb13f08be0f5a3dfa9ac27ac9b7ab7b65450563467fa82fb91579389
   languageName: node
   linkType: hard
 
